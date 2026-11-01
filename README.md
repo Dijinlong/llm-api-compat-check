@@ -91,8 +91,9 @@ compat_check.py     主脚本，零依赖
 这几个脚本最早是内部工具 —— 平台上几百个模型的计价口径要对齐，各家的「OpenAI 兼容」也要逐个验，
 后来整理成能独立跑的版本放出来。
 
-这套东西一共三个仓库，并列放在同账号下：
+这套东西一共四个仓库，并列放在同账号下：
 
 - [`llm-price-compare`](https://github.com/Dijinlong/llm-price-compare) —— 把不同计价口径归一化成一张可比的表
 - [`llm-api-compat-check`](https://github.com/Dijinlong/llm-api-compat-check) —— OpenAI 兼容层的 5 项体检
 - [`llm-scheduler-demo`](https://github.com/Dijinlong/llm-scheduler-demo) —— 多货源派单：健康分 + 熔断 + 带探索的加权选择
+- [`longai-entry`](https://github.com/Dijinlong/longai-entry) —— LONG AI 平台条目：定位、运作机制、计价口径与数据出处
